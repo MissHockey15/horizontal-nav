@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.navbox h1 {
+  text-align: center;
+  color: ;
+}
+
+.navbox a {
+  display: inline-block;
+  background-color: #73363b;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: .5em;
+}
+
+.navbox a:hover {
+  background-color: #ff332a;
+}
