@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: #fff;
-}
+  background-color: #dbd6d0;
+}79766f
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -9,7 +9,14 @@ html {
 
 .navbox h1 {
   text-align: center;
-  color: ;
+  color: white;
+  font-family: "Bevan", cursive;
+  line-height: 0.5em
+}
+
+.navbox body {
+  background-color: #79766f;
+  padding: 1em;
 }
 
 .navbox a {
@@ -19,6 +26,7 @@ html {
   color: white;
   padding: 1em;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 ul {
