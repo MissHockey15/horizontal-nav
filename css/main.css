@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6d0;
-}79766f
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -11,12 +11,14 @@ html {
   text-align: center;
   color: white;
   font-family: "Bevan", cursive;
-  line-height: 0.5em
+  line-height: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 2em;
 }
 
-.navbox body {
+.navbox head {
   background-color: #79766f;
-  padding: 1em;
+  border: 1em;
 }
 
 .navbox a {
@@ -24,12 +26,15 @@ html {
   background-color: #73363b;
   text-align: center;
   color: white;
-  padding: 1em;
+  padding: 0.8em;
   text-decoration: none;
   border-radius: 4px;
+  margin-bottom: 0.25em;
+  font-family: sans-serif;
+  font-size: 0.9em;
 }
 
-ul {
+.navbox ul {
   list-style-type: none;
   margin: .5em;
 }
