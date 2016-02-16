@@ -16,7 +16,8 @@ html {
   font-size: 2em;
 }
 
-.navbox head {
+.navbox body {
+  display: inline-block;
   background-color: #79766f;
   border: 1em;
 }
